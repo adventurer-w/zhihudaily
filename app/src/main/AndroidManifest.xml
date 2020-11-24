@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.zhihudaily">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+
+
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/pic_30"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/pic_30"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+
+        android:usesCleartextTraffic="true">
+
+        <activity
+            android:name=".NewsActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".CommentsActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".MyselfActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".CollectActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".LoginActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".RegisterActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+    </activity>
+    </application>
+</manifest>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:textColor="#333333"
+            android:text="相机"
+            android:padding="10dp"
+            android:id="@+id/open_camera"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:layout_height="40dp" />
+        <TextView
+            android:layout_marginTop="1dp"
+            android:layout_below="@id/open_camera"
+            android:id="@+id/open_album"
+            android:layout_width="match_parent"
+            android:textColor="#333333"
+            android:text="从图库中选择"
+            android:padding="10dp"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:layout_height="40dp" />
+        <TextView
+            android:layout_marginTop="1dp"
+            android:id="@+id/cancel"
+            android:layout_width="match_parent"
+            android:textColor="#333333"
+            android:text="取消"
+            android:padding="10dp"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:layout_below="@id/open_album"
+            android:layout_height="40dp" />
+
+</LinearLayout>
+
